@@ -75,9 +75,6 @@ export default function Home() {
               <div className="brief-meta">
                 <p>{briefDate} 早报</p>
                 <p>覆盖窗口：{windowLabel}</p>
-                {data.selectionNote ? (
-                  <p>{data.selectionNote}</p>
-                ) : null}
               </div>
               <h1 className="hero-title">
                 未来早报，今日知道
@@ -124,8 +121,18 @@ export default function Home() {
                         </h3>
                         <p>{item.summary}</p>
                         <details className="brief-detail">
-                          <summary>展开日报式解读</summary>
+                          <summary>展开深层解读</summary>
                           <p>{item.detail}</p>
+                          <dl>
+                            <div>
+                              <dt>为什么重要</dt>
+                              <dd>{item.whyItMatters}</dd>
+                            </div>
+                            <div>
+                              <dt>验证</dt>
+                              <dd>{item.verification} <a href={item.url} rel="noreferrer" target="_blank">查看一手来源</a></dd>
+                            </div>
+                          </dl>
                         </details>
                       </div>
                     </div>
@@ -169,7 +176,7 @@ export default function Home() {
                 </details>
               ))}
             </div>
-          </section>
+        </section>
         </section>
       ) : null}
 

@@ -23,7 +23,6 @@ export type NewsPayload = {
   windowEnd?: string;
   windowHours: number;
   selectionMode?: "brief-date" | "fallback-7d";
-  selectionNote?: string;
   sources: { name: string; url: string }[];
   items: NewsItem[];
 };

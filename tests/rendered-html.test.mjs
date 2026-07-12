@@ -75,6 +75,8 @@ test("keeps the news data structured", async () => {
   assert.ok(data.sources.length >= 3);
   assert.ok(Array.isArray(data.items));
   assert.ok(data.sources.every((source) => typeof source.name === "string" && /^https?:\/\//.test(source.url)));
+  assert.equal("selectionNote" in data, false);
+  assert.doesNotMatch(raw, /报道日期当天没有资讯|允许与历史日期重复|Meta 官方 Newsroom发布今日新奇/);
   assertItemsWithinWindow(data);
 
   for (const item of data.items) {
@@ -84,6 +86,10 @@ test("keeps the news data structured", async () => {
     assert.equal(typeof item.verification, "string");
     assert.equal(typeof item.detail, "string");
     assertChineseBriefingText(item);
+    if (item.section === "curious") {
+      assert.doesNotMatch(item.title, /发布.*新动态|今日新奇新动态/);
+      assert.match(item.detail, /深层解读：/);
+    }
   }
 });
 
