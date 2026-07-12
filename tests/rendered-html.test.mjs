@@ -93,6 +93,13 @@ test("keeps the news data structured", async () => {
   }
 });
 
+test("uses the previous Beijing brief before 8am", async () => {
+  const { getCurrentBriefDate } = await import("../app/data/brief-date.mjs");
+
+  assert.equal(getCurrentBriefDate(new Date("2026-07-13T21:59:00Z")), "2026-07-13");
+  assert.equal(getCurrentBriefDate(new Date("2026-07-14T00:00:00Z")), "2026-07-14");
+});
+
 test("keeps archived brief data within each one-week Beijing window", async () => {
   const archiveDir = new URL("../app/data/archive/", import.meta.url);
   const entries = await readdir(archiveDir);

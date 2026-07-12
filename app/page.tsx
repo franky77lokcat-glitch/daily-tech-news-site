@@ -35,7 +35,6 @@ export default function Home() {
   const { data } = getNewsPayload();
   const focusItems = data.items.filter((item) => item.section === "focus");
   const leadItems = (focusItems.length > 0 ? focusItems : data.items).slice(0, 5);
-  const curiousItems = data.items.filter((item) => item.section === "curious").slice(0, 5);
   const briefingItems = data.items;
   const groupedBriefingItems = briefingItems.reduce<Record<string, NewsItem[]>>((groups, item) => {
     groups[item.category] ??= [];
@@ -145,40 +144,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {curiousItems.length > 0 ? (
-        <section className="content-band curious-band">
-          <section className="content-inner">
-            <div className="section-heading compact">
-              <h2>今日新奇</h2>
-              <span>大公司发布的创造性产品与理念</span>
-            </div>
-            <div className="curious-list">
-              {curiousItems.map((item) => (
-                <details className="brief-row compact-row" key={item.id}>
-                  <summary>
-                    <span className="tag">{item.category}</span>
-                    <strong className="news-title"><span aria-hidden="true" className="new-dot" />{item.title}</strong>
-                    <small>{item.source} · {formatTime(item.publishedAt)}</small>
-                  </summary>
-                  <p>{item.summary}</p>
-                  <p>{item.detail}</p>
-                  <dl>
-                    <div>
-                      <dt>为什么重要</dt>
-                      <dd>{item.whyItMatters}</dd>
-                    </div>
-                    <div>
-                      <dt>验证</dt>
-                      <dd>{item.verification} <a href={item.url} rel="noreferrer" target="_blank">查看一手来源</a></dd>
-                    </div>
-                  </dl>
-                </details>
-              ))}
-            </div>
-        </section>
-        </section>
-      ) : null}
 
       <section className="content-band">
         <section className="content-inner">

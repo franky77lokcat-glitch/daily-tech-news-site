@@ -1,5 +1,6 @@
 import latestNews from "./latest-tech-news";
 import { archiveDates, archives } from "./archive-index";
+import { getCurrentBriefDate } from "./brief-date.mjs";
 
 export type NewsItem = {
   id: string;
@@ -28,19 +29,22 @@ export type NewsPayload = {
 };
 
 export function getNewsPayload(date?: string) {
-  if (date && date in archives) {
+  const requestedDate = date ?? getCurrentBriefDate();
+
+  if (requestedDate in archives) {
     return {
-      data: archives[date as keyof typeof archives] as NewsPayload,
-      requestedDate: date,
+      data: archives[requestedDate as keyof typeof archives] as NewsPayload,
+      requestedDate,
       isArchiveHit: true,
     };
   }
 
   return {
     data: latestNews as NewsPayload,
-    requestedDate: date,
+    requestedDate,
     isArchiveHit: false,
   };
 }
 
 export { archiveDates };
+export { getCurrentBriefDate };
