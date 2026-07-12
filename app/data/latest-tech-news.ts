@@ -1,0 +1,304 @@
+const newsData = {
+  "briefDate": "2026-07-12",
+  "generatedAt": "2026-07-12T08:00:00+08:00",
+  "windowStart": "2026-07-05T08:00:00+08:00",
+  "windowEnd": "2026-07-12T08:00:00+08:00",
+  "dayStart": "2026-07-12T00:00:00+08:00",
+  "windowHours": 168,
+  "selectionMode": "fallback-7d",
+  "selectionNote": "报道日期当天没有资讯，改用近一周内的资讯，允许与历史日期重复。",
+  "sources": [
+    {
+      "name": "OpenAI 官方发布",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google Cloud 官方博客",
+      "url": "https://cloud.google.com"
+    },
+    {
+      "name": "Meta 官方 Newsroom",
+      "url": "https://about.fb.com"
+    },
+    {
+      "name": "Microsoft 官方博客",
+      "url": "https://blogs.microsoft.com"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com"
+    },
+    {
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com"
+    },
+    {
+      "name": "Anthropic 官方发布",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "8c25f9fa8a62",
+      "title": "德国电信用 OpenAI 重塑 AI 原生电信服务",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "summary": "OpenAI 介绍德国电信如何把 AI 接入客服、员工流程和网络运营，推动传统电信公司向 AI 原生组织转型。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "d55d7a4edc95",
+      "title": "Apple 公布 8 月 Friday Night Baseball 赛程",
+      "source": "Apple Newsroom",
+      "category": "数码科技",
+      "publishedAt": "2026-07-09T15:59:17.613Z",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-and-major-league-baseball-announce-august-friday-night-baseball-schedule/",
+      "summary": "Apple 与美国职业棒球大联盟公布 8 月 Friday Night Baseball 转播安排，继续扩展 Apple TV+ 的体育内容布局。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "59665ae66b7a",
+      "title": "GeForce NOW 上线 RTX 5080 驱动的多伦多服务器",
+      "source": "NVIDIA 官方博客",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-09T13:00:55.000Z",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+      "summary": "NVIDIA 为 GeForce NOW 增加由 GeForce RTX 5080 驱动的多伦多服务器，提升云游戏服务的性能和区域覆盖。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "f9fcea4c9434",
+      "title": "GPT-5.6 成为 Microsoft 365 Copilot 首选模型",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "OpenAI 表示 GPT-5.6 将用于 Microsoft 365 Copilot，增强 Word、Excel、PowerPoint、Chat 和 Cowork 中的 AI 能力。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "744d9c90aa40",
+      "title": "OpenAI 发布 GPT-5.6 系列模型",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "OpenAI 发布 GPT-5.6 Sol、Terra 和 Luna，强调更高智能密度、更强成本效率，以及面向复杂任务的 ultra 能力。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "8675159b827a",
+      "title": "ChatGPT Work 让 ChatGPT 进入长任务工作流",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "summary": "OpenAI 推出 ChatGPT Work，让 ChatGPT 能跨应用和文件执行更长时间的任务，并把 Codex 能力扩展到更广泛的工作场景。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "80ddf733dbd9",
+      "title": "OpenAI 公布 GPT-5.5 生物安全漏洞奖励计划",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "summary": "OpenAI 介绍面向 GPT-5.5 的 Bio Bounty 计划，鼓励外部研究者发现并报告生物安全相关风险。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "02f9a649b739",
+      "title": "Apple 获得创纪录 89 项艾美奖提名",
+      "source": "Apple Newsroom",
+      "category": "数码科技",
+      "publishedAt": "2026-07-09T00:42:00.573Z",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-scores-record-89-emmy-award-nominations/",
+      "summary": "Apple 宣布其影视内容获得 89 项艾美奖提名，显示 Apple TV+ 在原创内容上的持续投入。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "ed08240af9c2",
+      "title": "Meta 在加拿大启动首个 AI 优化数据中心",
+      "source": "Meta 官方 Newsroom",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-08T19:30:30.000Z",
+      "url": "https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/",
+      "summary": "Meta 宣布在加拿大 Alberta 的 Sturgeon County 建设 1GW AI 优化数据中心，这是其在加拿大的首个数据中心项目。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "3632d5680423",
+      "title": "NVIDIA Nemotron 结合 LangChain Deep Agents 获得领先基准表现",
+      "source": "NVIDIA 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-08T15:00:27.000Z",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "summary": "NVIDIA 表示 Nemotron 3 Ultra 与 LangChain Deep Agents 调优方案结合后，在开放模型中取得领先表现，并降低企业智能体运行成本。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "6093d577ff34",
+      "title": "OpenAI 说明政府与国家安全合作原则",
+      "source": "OpenAI 官方发布",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-08T13:30:00.000Z",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "OpenAI 介绍其参与政府和国家安全合作时的原则，强调负责任使用、边界控制和透明治理。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "8f1ba71f97e5",
+      "title": "OpenAI 分析代码评测中的噪声问题",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "OpenAI 发布关于 SWE-Bench Pro 等代码评测的分析，指出热门基准中存在可靠性和信号质量问题。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "e0b9e78b2acf",
+      "title": "Apple 将扩大与 Broadcom 的美国芯片合作",
+      "source": "Apple Newsroom",
+      "category": "数码科技",
+      "publishedAt": "2026-07-08T10:00:13.748Z",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "summary": "Apple 宣布将增加与 Broadcom 的合作投入，在美国生产更多芯片，继续强化本土供应链。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "57fd3632ee53",
+      "title": "OpenAI 帮助 K-12 教师建立实用 AI 技能",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-08T10:00:00.000Z",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "summary": "OpenAI Academy 与 Walton Family Foundation 推出 AI Skills Jams，帮助 K-12 教育工作者学习可落地的 AI 技能。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "d38f9389ffe3",
+      "title": "OpenAI 推出 GPT-Live 语音模型",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "summary": "OpenAI 发布 GPT-Live，采用全双工语音交互架构，让 ChatGPT Voice 更接近自然对话。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "7268b0112c65",
+      "title": "Meta 回答 AI 眼镜常见问题",
+      "source": "Meta 官方 Newsroom",
+      "category": "AI",
+      "publishedAt": "2026-07-07T23:35:43.000Z",
+      "url": "https://about.fb.com/news/2026/07/metas-ai-glasses-your-questions-answered/",
+      "summary": "Meta 发布 AI 眼镜问答，说明功能、隐私控制和用户体验设计。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "5f1e84145c76",
+      "title": "Meta 推出 Muse Image 图像生成模型",
+      "source": "Meta 官方 Newsroom",
+      "category": "今日新奇",
+      "publishedAt": "2026-07-07T18:05:34.000Z",
+      "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+      "summary": "Meta 发布 Muse Image，这是 Meta Superintelligence Labs 的首个图像生成模型，已接入 Meta AI。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "curious"
+    },
+    {
+      "id": "9caefca2791f",
+      "title": "NVIDIA Vera 面向智能体 AI 推动高单线程 CPU 能力",
+      "source": "NVIDIA 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-07T15:00:52.000Z",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "summary": "NVIDIA 介绍 Vera CPU 在智能体 AI 时代的意义，强调大规模高单线程性能对创作、推理和开发工作流的重要性。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "405fe38a0932",
+      "title": "Meta 介绍打击应用内儿童剥削内容的工作",
+      "source": "Meta 官方 Newsroom",
+      "category": "今日新奇",
+      "publishedAt": "2026-07-07T14:58:49.000Z",
+      "url": "https://about.fb.com/news/2026/07/our-work-to-fight-child-exploitation-on-our-apps/",
+      "summary": "Meta 说明其在旗下应用中识别、移除和打击儿童剥削内容的治理措施。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "curious"
+    },
+    {
+      "id": "199c14bf7c06",
+      "title": "NVIDIA 与 Hugging Face 将新模型和框架带入 LeRobot",
+      "source": "NVIDIA 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-07T06:00:26.000Z",
+      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+      "summary": "NVIDIA 与 Hugging Face 合作，把 Isaac GR00T 1.7、Isaac Teleop 等能力接入 LeRobot，支持开放机器人社区开发。",
+      "detail": "这条由官方渠道自动抓取。当前版本先保留原文摘要，后续可以接入二次改写流程，把它扩展成更完整的日报式解读。",
+      "whyItMatters": "这条动态可能影响产品路线、投资方向、开发者工作流或企业技术采购，需要结合原文继续判断。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，未进行人工复核。",
+      "section": "brief"
+    }
+  ]
+};
+
+export default newsData;

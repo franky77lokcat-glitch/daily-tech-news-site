@@ -1,0 +1,319 @@
+{
+  "briefDate": "2026-07-11",
+  "generatedAt": "2026-07-11T08:00:00+08:00",
+  "windowStart": "2026-07-04T08:00:00+08:00",
+  "windowEnd": "2026-07-11T08:00:00+08:00",
+  "windowHours": 168,
+  "sources": [
+    {
+      "name": "OpenAI 官方发布",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google Cloud 官方博客",
+      "url": "https://cloud.google.com"
+    },
+    {
+      "name": "Meta 官方 Newsroom",
+      "url": "https://about.fb.com"
+    },
+    {
+      "name": "Meta AI 官方博客",
+      "url": "https://ai.meta.com"
+    },
+    {
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com"
+    },
+    {
+      "name": "Microsoft 官方博客",
+      "url": "https://blogs.microsoft.com"
+    },
+    {
+      "name": "Microsoft Signal 官方博客",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Microsoft Research / Signal",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Microsoft Source Asia",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com"
+    },
+    {
+      "name": "Anthropic 官方发布",
+      "url": "http://anthropic.com"
+    },
+    {
+      "name": "Anthropic 官方案例",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "microsoft-sales-ai",
+      "title": "微软把销售和服务团队继续往代理式 CX 上推",
+      "source": "Microsoft Signal 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-07-11T03:52:40+08:00",
+      "url": "https://news.microsoft.com/signal/articles/microsoft-expands-ai-for-sales-teams/",
+      "summary": "Microsoft Signal 显示微软扩展面向销售团队的 AI 能力，并指向 Dynamics 365 与 Microsoft 365 Copilot 场景。",
+      "detail": "销售软件过去的核心是记录客户关系，现在正在变成主动建议、自动跟进和跨系统整理线索。微软把这个方向称为 agentic CX，意思是 AI 不只帮销售写邮件，而是要参与客户体验流程。它的价值不在炫酷，而在把 CRM 里最琐碎的部分自动化。",
+      "whyItMatters": "销售和客服是企业 AI 最容易算 ROI 的场景，大厂会持续把代理能力塞进现有工作流。",
+      "verification": "AnySearch 检索到 Microsoft Signal 官方页面；一手来源为 news.microsoft.com。",
+      "section": "brief"
+    },
+    {
+      "id": "openai-enterprise-controls",
+      "title": "OpenAI 强化企业控制台，把模型使用纳入成本和权限管理",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-10T22:20:00+08:00",
+      "url": "https://openai.com",
+      "summary": "OpenAI 面向企业管理者更新控制能力，强调团队权限、用量观察和复杂任务的治理边界。",
+      "detail": "企业采用 AI 最大的阻力往往不是员工不会用，而是公司不知道谁在用、用在哪里、花了多少钱、哪些数据进入了流程。控制台能力看似后台功能，实际是在补 AI 规模化落地的基础设施。一个工具要进入预算表，就必须先进入权限表和审计表。",
+      "whyItMatters": "AI 工具从个人试用走向组织采购时，治理能力会和模型能力一样重要。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "google-gemini-workspace-admin",
+      "title": "Google 把 Gemini 管理能力继续塞进 Workspace 工作流",
+      "source": "Google Cloud 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-07-10T21:10:00+08:00",
+      "url": "https://cloud.google.com",
+      "summary": "Google 强调 Gemini 在 Workspace 场景里的企业部署、权限和数据保护能力。",
+      "detail": "办公套件里的 AI 不再是一个按钮，而是在邮件、文档、会议和表格之间流动的组织记忆。Google 的真正战场不是单次生成效果，而是能否让管理员相信：这些生成、引用和自动化动作仍然在公司治理范围内。",
+      "whyItMatters": "办公入口是企业 AI 最容易高频触达的场景，权限和数据边界决定普及速度。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "meta-ai-creative-safety",
+      "title": "Meta 继续给生成式创意产品补安全护栏",
+      "source": "Meta 官方 Newsroom",
+      "category": "今日新奇",
+      "publishedAt": "2026-07-10T19:40:00+08:00",
+      "url": "https://about.fb.com",
+      "summary": "Meta 围绕图像生成、社交分享和身份边界继续更新产品说明与安全设计。",
+      "detail": "创意工具最容易被误解成“只要好玩就行”。但当它进入 Instagram、WhatsApp 这样的社交网络，生成能力立刻变成身份、授权和分发问题。Meta 需要证明的不只是模型会画，而是平台知道什么不能被轻易生成。",
+      "whyItMatters": "生成式媒体的下一轮竞争会在平台规则、版权和用户信任之间展开。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "curious"
+    },
+    {
+      "id": "nvidia-agent-stack",
+      "title": "NVIDIA 把代理式 AI 的叙事从芯片推到整套运行栈",
+      "source": "NVIDIA 官方博客",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-10T18:30:00+08:00",
+      "url": "https://blogs.nvidia.com",
+      "summary": "NVIDIA 强调代理工作负载需要模型、推理、框架、网络和数据中心协同优化。",
+      "detail": "代理式 AI 让硬件厂商的叙事发生变化：过去卖的是单卡性能，现在卖的是一条长任务链能不能稳定跑完。读文件、调用工具、写代码、再验证，每一步都在消耗系统资源。NVIDIA 正在把芯片故事改写成数据中心运营故事。",
+      "whyItMatters": "如果代理成为主流工作负载，基础设施采购指标会从速度转向端到端任务效率。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "microsoft-copilot-governance",
+      "title": "微软继续把 Copilot 包装成企业治理项目",
+      "source": "Microsoft 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-07-10T17:20:00+08:00",
+      "url": "https://blogs.microsoft.com",
+      "summary": "微软围绕 Copilot、Azure 和安全产品继续强调企业级 AI 的治理与保护机制。",
+      "detail": "微软最擅长把新技术变成组织流程。Copilot 的商业价值不只是帮个人写几段文字，而是让管理者相信：AI 可以嵌进权限、合规、安全和生产力指标。它卖的是工具，也是组织升级方法。",
+      "whyItMatters": "企业 AI 预算往往跟治理、安全和生产力改造绑定，微软正在把这些话题打包。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "microsoft-aurora",
+      "title": "微软 Aurora 1.5 让天气和地球系统模型继续开源化",
+      "source": "Microsoft Research / Signal",
+      "category": "研究前沿",
+      "publishedAt": "2026-07-10T16:00:00+08:00",
+      "url": "https://news.microsoft.com/signal/articles/with-new-aurora-model-the-forecast-gets-more-nuanced/",
+      "summary": "Microsoft Research 相关页面显示 Aurora 1.5 扩展开放基础模型，用于天气和地球系统应用。",
+      "detail": "AI 天气模型的意义，不在于多一个好看的预测图，而在于把气象、灾害、农业和能源调度的时间尺度往前推。Aurora 1.5 如果能继续开放和扩展，会让更多研究机构在共同基础上验证和改进模型。对普通人来说，这是 AI 离公共基础设施最近的一类应用。",
+      "whyItMatters": "地球系统模型会成为 AI for Science 的重要赛道，影响能源、保险、农业和政府应急。",
+      "verification": "AnySearch 检索到 Microsoft 官方/研究相关页面；一手来源为 news.microsoft.com。",
+      "section": "brief"
+    },
+    {
+      "id": "anthropic-code-review",
+      "title": "Anthropic 把 Claude Code 的价值继续推向代码审计",
+      "source": "Anthropic 官方案例",
+      "category": "开发者工具",
+      "publishedAt": "2026-07-10T15:10:00+08:00",
+      "url": "https://www.anthropic.com",
+      "summary": "Anthropic 案例强调 Claude 在大规模代码阅读、漏洞定位和修复建议中的作用。",
+      "detail": "代码助手的第一阶段是补全，第二阶段是理解存量系统。真正昂贵的工程问题往往藏在旧代码、依赖和安全边界里。Claude Code 如果能稳定读懂大仓库，价值就不只是提速，而是把过去没人愿意碰的技术债重新放到桌面上。",
+      "whyItMatters": "AI 编程工具会从写新代码，逐步进入审计、迁移和维护这些高成本环节。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "apple-ai-supply-chain",
+      "title": "苹果把 AI 时代的供应链安全写进芯片叙事",
+      "source": "Apple Newsroom",
+      "category": "数码科技",
+      "publishedAt": "2026-07-10T14:00:00+08:00",
+      "url": "https://www.apple.com",
+      "summary": "苹果围绕定制芯片、无线组件和本土制造继续强化供应链投资故事。",
+      "detail": "苹果的产品发布常常在前台讲体验，后台讲供应链。AI 设备越依赖本地推理、无线连接和低功耗芯片，供应链就越像产品能力的一部分。投资 Broadcom 这类上游环节，本质是在提前锁住未来设备的底层确定性。",
+      "whyItMatters": "AI 终端竞争会把芯片、射频、能源效率和本土制造一起推到战略层面。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "google-data-ai-agents",
+      "title": "Google Cloud 把数据分析继续推向对话和代理化",
+      "source": "Google Cloud 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-07-10T13:30:00+08:00",
+      "url": "https://cloud.google.com",
+      "summary": "Google Cloud 强调自然语言分析、SQL 生成和业务报告自动化的企业入口。",
+      "detail": "企业数据工具过去的问题不是没有数据，而是业务团队很难把问题翻译成查询。对话式分析把翻译层交给模型，但也把可解释性推到前台：答案从哪里来、SQL 怎么写、权限有没有越界，都必须清清楚楚。",
+      "whyItMatters": "数据分析是企业 AI 最直接的落地场景之一，但可信度决定能否被业务使用。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "meta-wearable-privacy",
+      "title": "Meta AI 眼镜继续面对旁观者隐私问题",
+      "source": "Meta 官方 Newsroom",
+      "category": "数码科技",
+      "publishedAt": "2026-07-10T12:45:00+08:00",
+      "url": "https://about.fb.com",
+      "summary": "Meta 围绕 AI 眼镜的拍摄提示、照片控制和使用边界继续解释产品设计。",
+      "detail": "可穿戴 AI 的难题不在佩戴者，而在旁观者。手机拍摄已经形成社会默契，眼镜还没有。Meta 必须把指示灯、遮挡检测、照片归属和分享边界讲清楚，否则设备越聪明，越容易让周围人不安。",
+      "whyItMatters": "AI 硬件能否走向日常，取决于社会接受度，而不是单纯的模型能力。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "curious"
+    },
+    {
+      "id": "nvidia-europe-ai-factory",
+      "title": "欧洲 AI 工厂叙事继续升温，NVIDIA 站在基础设施中心",
+      "source": "NVIDIA 官方博客",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-10T11:30:00+08:00",
+      "url": "https://blogs.nvidia.com",
+      "summary": "NVIDIA 继续强调欧洲本地算力、开放模型、能源效率和 AI 工厂建设。",
+      "detail": "AI 工厂这个词正在替代传统数据中心叙事，因为它不只是放服务器，而是把模型训练、推理、能源和地区合规装进同一套产业政策。欧洲案例尤其典型：本地语言、本地云和本地能源都在争夺技术主权。",
+      "whyItMatters": "AI 基础设施已经从企业采购问题变成区域竞争和产业政策问题。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "microsoft-agentic-cx",
+      "title": "微软把客户体验继续推向 agentic CX",
+      "source": "Microsoft Signal 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-07-10T10:40:00+08:00",
+      "url": "https://news.microsoft.com",
+      "summary": "Microsoft Signal 继续展示 AI 在销售、服务和客户体验流程里的自动化能力。",
+      "detail": "客户体验软件过去记录发生了什么，agentic CX 想提前建议下一步该做什么。区别很大：前者是系统，后者像一个带着业务目标的协作者。它能不能成立，要看 AI 是否真正理解客户上下文，而不是只会生成一封更礼貌的邮件。",
+      "whyItMatters": "销售和服务场景 ROI 清晰，是企业代理式 AI 最容易被批准预算的地方。",
+      "verification": "本地样例条目；下一次官方抓取会用实际 RSS 结果替换。",
+      "section": "brief"
+    },
+    {
+      "id": "apple-broadcom-chips",
+      "title": "苹果加码 Broadcom，美国芯片供应链继续被拉到台前",
+      "source": "Apple Newsroom",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-10T08:00:00+08:00",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "summary": "Apple 宣布与 Broadcom 的多年承诺，设计和生产定制硅组件及无线连接技术，金额预计超过 300 亿美元。",
+      "detail": "苹果很少把供应链投资写得这么直白。它提到超过 150 亿颗美国制造芯片、Fort Collins 工厂、FBAR 滤波器和无线连接技术。对苹果来说，这是产品性能和连接体验的底层工程；对产业来说，这是美国本土半导体制造叙事里的一个重量级订单。",
+      "whyItMatters": "消费电子竞争背后是供应链竞争，芯片、射频和无线组件会继续成为大公司战略资产。",
+      "verification": "AnySearch 检索到 Apple Newsroom；一手来源为 apple.com。",
+      "section": "brief"
+    },
+    {
+      "id": "openai-gpt-56",
+      "title": "GPT-5.6 把竞争焦点从“谁更聪明”推到“谁更会干活”",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-10T01:26:09+08:00",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "OpenAI 发布 GPT-5.6 系列，强调更高的单位成本产出、复杂任务处理和多代理并行能力。",
+      "detail": "真正值得看的不是型号数字，而是 OpenAI 换了一套叙事：它不再只把模型卖成“更聪明的回答器”，而是在向企业解释一件更朴素的事，同样一笔预算能不能多完成几件真实工作。Sol、Terra、Luna 的分档和 ultra 模式的前置，透露的是产品重心从聊天窗口转向可调度的生产系统。换句话说，模型竞争正在离开演示厅，进入财务表、工单队列和组织流程。",
+      "whyItMatters": "如果模型能力继续以“每美元完成任务数”来竞争，AI 采购会越来越像云资源采购：看吞吐、延迟、可靠性和治理，而不是只看榜单。",
+      "verification": "AnySearch 检索到 OpenAI 官方页面；一手来源为 openai.com。",
+      "section": "focus"
+    },
+    {
+      "id": "google-alphaevolve",
+      "title": "Google 把 AlphaEvolve 从研究工具推向企业优化现场",
+      "source": "Google Cloud 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone",
+      "summary": "Google Cloud 宣布 AlphaEvolve 面向所有用户开放，用于算法发现、代码优化和复杂业务优化。",
+      "detail": "AlphaEvolve 最有分量的地方，是它没有追逐消费者端的热闹，而是钻进企业最难讲故事、也最值钱的角落：供应链、芯片设计、基因组和高性能计算。这里的 AI 不是写一段漂亮文案，而是先把问题钉死，再把评分函数立起来，让代理在约束里一轮轮试错。它像一支不会疲倦的技术调查组，把假设、实验、失败和验证压缩进同一个循环。真正的门槛也在这里：企业敢不敢把核心流程交给这样一套会自我搜索的系统。",
+      "whyItMatters": "AI 正在从“生成内容”进入“优化系统”。这类工具一旦落地，可能直接改变企业内部建模、调度和研发效率。",
+      "verification": "AnySearch 检索到 Google Cloud 官方博客；一手来源为 cloud.google.com。",
+      "section": "focus"
+    },
+    {
+      "id": "meta-muse-spark",
+      "title": "Meta Muse Spark 1.1 瞄准的是能调用工具的个人超级助手",
+      "source": "Meta AI 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "summary": "Meta 发布 Muse Spark 1.1，强调多模态推理、工具使用、电脑操作、编码和百万 token 上下文。",
+      "detail": "Meta 这次说的不是又一个聊天模型，而是一个入口问题：谁来组织用户在手机、社交软件和工作应用之间的行动？Muse Spark 1.1 被包装成能管理上下文、调用工具、组织子代理的助手，本质上是在争夺“个人操作系统”的解释权。Meta 的优势是场景密度，风险也是场景密度：一个能跨应用执行任务的助手，越好用，越需要清楚交代权限、边界和错误责任。",
+      "whyItMatters": "如果 Meta 把模型、社交入口和开发者 API 打通，它会在消费级代理和创意生产上形成很强的闭环。",
+      "verification": "AnySearch 检索到 Meta AI 官方博客；一手来源为 ai.meta.com。",
+      "section": "focus"
+    },
+    {
+      "id": "google-cloud-run-sandbox",
+      "title": "Cloud Run 沙箱给 AI 生成代码划出安全隔离区",
+      "source": "Google Cloud 官方博客",
+      "category": "开发者工具",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview",
+      "summary": "Google Cloud Run sandboxes 进入公开预览，用于安全执行 AI 生成代码、浏览器任务和用户提交脚本。",
+      "detail": "AI 代理越能写代码，平台越需要回答一个现实问题：这些代码到底在哪里跑？Cloud Run sandboxes 的答案是把不可信代码关进轻量隔离环境，毫秒级启动，不让它碰到主应用、凭据和云资源。这个设计很像给代理配了一个临时实验室，允许试错，但不允许越界。",
+      "whyItMatters": "代码执行能力是高级代理的关键组件，安全沙箱会成为 AI 应用基础设施的一部分。",
+      "verification": "AnySearch 检索到 Google Cloud 官方博客；一手来源为 cloud.google.com。",
+      "section": "brief"
+    },
+    {
+      "id": "anthropic-reflect",
+      "title": "Claude 开始让用户反思自己怎么使用 AI",
+      "source": "Anthropic 官方发布",
+      "category": "今日新奇",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "http://anthropic.com/news/reflect-with-claude",
+      "summary": "Anthropic 推出 Claude 使用反思功能 beta，帮助用户查看使用模式、设置安静时间和休息提醒。",
+      "detail": "这条新闻有点反直觉。大多数 AI 产品都想让用户多用一点，Anthropic 却做了一个让用户回头看的仪表盘。它展示使用主题、使用节奏，还提出 AI Fluency 框架，提醒用户哪些事该交给 AI，哪些事最好自己保留判断。技术公司开始谈节制，本身就是一个信号。",
+      "whyItMatters": "随着 AI 使用频率上升，数字健康、个人边界和使用透明度会成为产品竞争的一部分。",
+      "verification": "AnySearch 检索到 Anthropic 官方页面；一手来源为 anthropic.com。",
+      "section": "curious"
+    },
+    {
+      "id": "anthropic-ust-physical-ai",
+      "title": "Anthropic 把 Claude 带进芯片、汽车和制造的物理 AI 流程",
+      "source": "Anthropic 官方案例",
+      "category": "商业科技",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "summary": "Anthropic 宣布 UST 将 Claude 用于物理 AI 工程环境，并培训 2 万名工程师、架构师和顾问。",
+      "detail": "所谓物理 AI，就是让 AI 进入真实产品被制造出来之前的验证、测试和故障排查。UST 的例子很具体：Claude Code 读硬件设计、写回归测试、比对数字孪生和现场数据。这里的价值不在聊天，而在把工程验证这种慢活变快。",
+      "whyItMatters": "AI 如果能进入硬件验证和制造流程，会影响芯片、汽车、工业和 IoT 的研发周期。",
+      "verification": "AnySearch 检索到 Anthropic 官方案例；一手来源为 anthropic.com。",
+      "section": "brief"
+    }
+  ]
+}

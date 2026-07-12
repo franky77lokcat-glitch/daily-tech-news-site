@@ -1,0 +1,163 @@
+{
+  "briefDate": "2026-07-10",
+  "generatedAt": "2026-07-10T08:00:00+08:00",
+  "windowStart": "2026-07-03T08:00:00+08:00",
+  "windowEnd": "2026-07-10T08:00:00+08:00",
+  "windowHours": 168,
+  "sources": [
+    {
+      "name": "OpenAI 官方发布",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google Cloud 官方博客",
+      "url": "https://cloud.google.com"
+    },
+    {
+      "name": "Meta 官方 Newsroom",
+      "url": "https://about.fb.com"
+    },
+    {
+      "name": "Meta AI 官方博客",
+      "url": "https://ai.meta.com"
+    },
+    {
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com"
+    },
+    {
+      "name": "Microsoft 官方博客",
+      "url": "https://blogs.microsoft.com"
+    },
+    {
+      "name": "Microsoft Signal 官方博客",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Microsoft Research / Signal",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Microsoft Source Asia",
+      "url": "https://news.microsoft.com"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com"
+    },
+    {
+      "name": "Anthropic 官方发布",
+      "url": "http://anthropic.com"
+    },
+    {
+      "name": "Anthropic 官方案例",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-gpt-56",
+      "title": "GPT-5.6 把竞争焦点从“谁更聪明”推到“谁更会干活”",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-10T01:26:09+08:00",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "OpenAI 发布 GPT-5.6 系列，强调更高的单位成本产出、复杂任务处理和多代理并行能力。",
+      "detail": "真正值得看的不是型号数字，而是 OpenAI 换了一套叙事：它不再只把模型卖成“更聪明的回答器”，而是在向企业解释一件更朴素的事，同样一笔预算能不能多完成几件真实工作。Sol、Terra、Luna 的分档和 ultra 模式的前置，透露的是产品重心从聊天窗口转向可调度的生产系统。换句话说，模型竞争正在离开演示厅，进入财务表、工单队列和组织流程。",
+      "whyItMatters": "如果模型能力继续以“每美元完成任务数”来竞争，AI 采购会越来越像云资源采购：看吞吐、延迟、可靠性和治理，而不是只看榜单。",
+      "verification": "AnySearch 检索到 OpenAI 官方页面；一手来源为 openai.com。",
+      "section": "focus"
+    },
+    {
+      "id": "google-alphaevolve",
+      "title": "Google 把 AlphaEvolve 从研究工具推向企业优化现场",
+      "source": "Google Cloud 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone",
+      "summary": "Google Cloud 宣布 AlphaEvolve 面向所有用户开放，用于算法发现、代码优化和复杂业务优化。",
+      "detail": "AlphaEvolve 最有分量的地方，是它没有追逐消费者端的热闹，而是钻进企业最难讲故事、也最值钱的角落：供应链、芯片设计、基因组和高性能计算。这里的 AI 不是写一段漂亮文案，而是先把问题钉死，再把评分函数立起来，让代理在约束里一轮轮试错。它像一支不会疲倦的技术调查组，把假设、实验、失败和验证压缩进同一个循环。真正的门槛也在这里：企业敢不敢把核心流程交给这样一套会自我搜索的系统。",
+      "whyItMatters": "AI 正在从“生成内容”进入“优化系统”。这类工具一旦落地，可能直接改变企业内部建模、调度和研发效率。",
+      "verification": "AnySearch 检索到 Google Cloud 官方博客；一手来源为 cloud.google.com。",
+      "section": "focus"
+    },
+    {
+      "id": "meta-muse-spark",
+      "title": "Meta Muse Spark 1.1 瞄准的是能调用工具的个人超级助手",
+      "source": "Meta AI 官方博客",
+      "category": "AI",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "summary": "Meta 发布 Muse Spark 1.1，强调多模态推理、工具使用、电脑操作、编码和百万 token 上下文。",
+      "detail": "Meta 这次说的不是又一个聊天模型，而是一个入口问题：谁来组织用户在手机、社交软件和工作应用之间的行动？Muse Spark 1.1 被包装成能管理上下文、调用工具、组织子代理的助手，本质上是在争夺“个人操作系统”的解释权。Meta 的优势是场景密度，风险也是场景密度：一个能跨应用执行任务的助手，越好用，越需要清楚交代权限、边界和错误责任。",
+      "whyItMatters": "如果 Meta 把模型、社交入口和开发者 API 打通，它会在消费级代理和创意生产上形成很强的闭环。",
+      "verification": "AnySearch 检索到 Meta AI 官方博客；一手来源为 ai.meta.com。",
+      "section": "focus"
+    },
+    {
+      "id": "google-cloud-run-sandbox",
+      "title": "Cloud Run 沙箱给 AI 生成代码划出安全隔离区",
+      "source": "Google Cloud 官方博客",
+      "category": "开发者工具",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview",
+      "summary": "Google Cloud Run sandboxes 进入公开预览，用于安全执行 AI 生成代码、浏览器任务和用户提交脚本。",
+      "detail": "AI 代理越能写代码，平台越需要回答一个现实问题：这些代码到底在哪里跑？Cloud Run sandboxes 的答案是把不可信代码关进轻量隔离环境，毫秒级启动，不让它碰到主应用、凭据和云资源。这个设计很像给代理配了一个临时实验室，允许试错，但不允许越界。",
+      "whyItMatters": "代码执行能力是高级代理的关键组件，安全沙箱会成为 AI 应用基础设施的一部分。",
+      "verification": "AnySearch 检索到 Google Cloud 官方博客；一手来源为 cloud.google.com。",
+      "section": "brief"
+    },
+    {
+      "id": "anthropic-reflect",
+      "title": "Claude 开始让用户反思自己怎么使用 AI",
+      "source": "Anthropic 官方发布",
+      "category": "今日新奇",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "http://anthropic.com/news/reflect-with-claude",
+      "summary": "Anthropic 推出 Claude 使用反思功能 beta，帮助用户查看使用模式、设置安静时间和休息提醒。",
+      "detail": "这条新闻有点反直觉。大多数 AI 产品都想让用户多用一点，Anthropic 却做了一个让用户回头看的仪表盘。它展示使用主题、使用节奏，还提出 AI Fluency 框架，提醒用户哪些事该交给 AI，哪些事最好自己保留判断。技术公司开始谈节制，本身就是一个信号。",
+      "whyItMatters": "随着 AI 使用频率上升，数字健康、个人边界和使用透明度会成为产品竞争的一部分。",
+      "verification": "AnySearch 检索到 Anthropic 官方页面；一手来源为 anthropic.com。",
+      "section": "curious"
+    },
+    {
+      "id": "anthropic-ust-physical-ai",
+      "title": "Anthropic 把 Claude 带进芯片、汽车和制造的物理 AI 流程",
+      "source": "Anthropic 官方案例",
+      "category": "商业科技",
+      "publishedAt": "2026-07-09T20:00:00+08:00",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "summary": "Anthropic 宣布 UST 将 Claude 用于物理 AI 工程环境，并培训 2 万名工程师、架构师和顾问。",
+      "detail": "所谓物理 AI，就是让 AI 进入真实产品被制造出来之前的验证、测试和故障排查。UST 的例子很具体：Claude Code 读硬件设计、写回归测试、比对数字孪生和现场数据。这里的价值不在聊天，而在把工程验证这种慢活变快。",
+      "whyItMatters": "AI 如果能进入硬件验证和制造流程，会影响芯片、汽车、工业和 IoT 的研发周期。",
+      "verification": "AnySearch 检索到 Anthropic 官方案例；一手来源为 anthropic.com。",
+      "section": "brief"
+    },
+    {
+      "id": "nvidia-agentperf",
+      "title": "NVIDIA 用 AgentPerf 给 AI 基础设施换了一把尺子",
+      "source": "NVIDIA 官方博客",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-09T18:00:00+08:00",
+      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "summary": "NVIDIA 称 Blackwell Ultra NVL72 在首个代理式 AI 基础设施基准 AgentPerf 中领先。",
+      "detail": "NVIDIA 很清楚，旧的推理基准已经不够用了。一个代理不是跑完一句提示词就结束，它要读文件、写代码、调用工具、观察结果，再回头修正。AgentPerf 表面是在测基础设施，实际是在给未来数据中心重新定义账本：不是每秒吐出多少 token，而是每兆瓦能支撑多少个代理持续工作。Blackwell 的叙事因此从芯片性能转向运营经济学，这才是云厂商和大客户真正会盯着看的数字。",
+      "whyItMatters": "当 AI 工作流变长，算力平台的竞争会从单模型速度转向端到端任务效率。",
+      "verification": "AnySearch 检索到 NVIDIA 官方博客；一手来源为 blogs.nvidia.com。",
+      "section": "focus"
+    },
+    {
+      "id": "nvidia-france-ai",
+      "title": "NVIDIA 把法国 AI 基础设施写成欧洲样板间",
+      "source": "NVIDIA 官方博客",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-09T18:00:00+08:00",
+      "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
+      "summary": "NVIDIA 介绍法国 AI 基础设施进展，包括 AI factories、Mistral、Scaleway、Bull/Foxconn 和能源蓝图。",
+      "detail": "这不是单家公司新闻，而是一张产业地图。NVIDIA 把算力、模型、云服务、制造和能源放在同一篇文章里，说明 AI 基础设施已经变成国家级工程。法国案例的核心是本地语言、欧洲合规、开放模型和能源效率。",
+      "whyItMatters": "AI 竞争正在从模型公司扩展到国家基础设施和能源体系。",
+      "verification": "AnySearch 检索到 NVIDIA 官方博客；一手来源为 blogs.nvidia.com。",
+      "section": "brief"
+    }
+  ]
+}
