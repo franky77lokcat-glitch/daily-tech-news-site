@@ -54,6 +54,18 @@ function assertItemsWithinWindow(data) {
   }
 }
 
+function assertChineseBriefingText(item) {
+  for (const field of ["title", "summary", "detail", "whyItMatters", "verification"]) {
+    assert.match(item[field], /[\u3400-\u9fff]/, `${field} should contain Chinese text: ${item[field]}`);
+  }
+
+  assert.doesNotMatch(
+    item.title,
+    /[A-Za-z][A-Za-z\s,'".:;!?-]{24,}/,
+    `title should not be a long English headline: ${item.title}`,
+  );
+}
+
 test("keeps the news data structured", async () => {
   const raw = await readFile(new URL("../app/data/latest-tech-news.json", import.meta.url), "utf8");
   const data = JSON.parse(raw);
@@ -71,6 +83,7 @@ test("keeps the news data structured", async () => {
     assert.match(item.url, /^https?:\/\//);
     assert.equal(typeof item.verification, "string");
     assert.equal(typeof item.detail, "string");
+    assertChineseBriefingText(item);
   }
 });
 
