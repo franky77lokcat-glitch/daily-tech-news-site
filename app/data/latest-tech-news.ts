@@ -1,9 +1,9 @@
 const newsData = {
-  "briefDate": "2026-07-13",
-  "generatedAt": "2026-07-13T08:00:00+08:00",
-  "windowStart": "2026-07-06T08:00:00+08:00",
-  "windowEnd": "2026-07-13T08:00:00+08:00",
-  "dayStart": "2026-07-13T00:00:00+08:00",
+  "briefDate": "2026-07-14",
+  "generatedAt": "2026-07-14T08:00:00+08:00",
+  "windowStart": "2026-07-07T08:00:00+08:00",
+  "windowEnd": "2026-07-14T08:00:00+08:00",
+  "dayStart": "2026-07-14T00:00:00+08:00",
   "windowHours": 168,
   "selectionMode": "fallback-7d",
   "sources": [
@@ -38,6 +38,19 @@ const newsData = {
   ],
   "items": [
     {
+      "id": "b65188daade3",
+      "title": "Meta 在加拿大建设 AI 优化数据中心",
+      "source": "Meta 官方 Newsroom",
+      "category": "科技信息热点",
+      "publishedAt": "2026-07-13T09:30:24.000Z",
+      "url": "https://about.fb.com/news/2026/07/teachers-local-businesses-win-as-meta-expands-louisiana-data-center/",
+      "summary": "Meta Newsroom发布了与“Meta 在加拿大建设 AI 优化数据中心”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：Meta 在加拿大建设 AI 优化数据中心反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
+      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
+      "section": "brief"
+    },
+    {
       "id": "8c25f9fa8a62",
       "title": "德国电信用 AI 改造电信服务",
       "source": "OpenAI 官方发布",
@@ -46,6 +59,19 @@ const newsData = {
       "url": "https://openai.com/index/deutsche-telekom",
       "summary": "OpenAI 官方发布了与“德国电信用 AI 改造电信服务”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
       "detail": "深层解读：德国电信用 AI 改造电信服务反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
+      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
+      "section": "brief"
+    },
+    {
+      "id": "a0dd0fec3c08",
+      "title": "OpenAI 官方发布发布AI新动态",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "url": "https://openai.com/academy/getting-started",
+      "summary": "OpenAI 官方发布了与“OpenAI 官方发布发布AI新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：OpenAI 官方发布发布AI新动态反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
       "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
       "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
       "section": "brief"
@@ -90,6 +116,19 @@ const newsData = {
       "section": "brief"
     },
     {
+      "id": "80ddf733dbd9",
+      "title": "OpenAI 公布生物安全漏洞奖励计划",
+      "source": "OpenAI 官方发布",
+      "category": "AI",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "summary": "OpenAI 官方发布了与“OpenAI 公布生物安全漏洞奖励计划”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：OpenAI 公布生物安全漏洞奖励计划反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
+      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
+      "section": "brief"
+    },
+    {
       "id": "744d9c90aa40",
       "title": "OpenAI 发布 GPT-5.6 系列模型",
       "source": "OpenAI 官方发布",
@@ -111,19 +150,6 @@ const newsData = {
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "summary": "OpenAI 官方发布了与“ChatGPT Work 进入长任务工作流”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
       "detail": "深层解读：ChatGPT Work 进入长任务工作流的核心不是单点功能更新，而是把 AI 从“回答问题”推进到“接管一段工作流”。影响路径：如果它能稳定处理权限、上下文、文件和多人协作，企业采购会从买一个聊天入口，转向重新设计销售、客服、研发和办公流程。继续观察：可靠性、审计能力、失败后的人工接管机制，以及它能否在真实业务里连续跑完多步骤任务。",
-      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
-      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
-      "section": "brief"
-    },
-    {
-      "id": "80ddf733dbd9",
-      "title": "OpenAI 公布生物安全漏洞奖励计划",
-      "source": "OpenAI 官方发布",
-      "category": "AI",
-      "publishedAt": "2026-07-09T10:00:00.000Z",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "summary": "OpenAI 官方发布了与“OpenAI 公布生物安全漏洞奖励计划”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
-      "detail": "深层解读：OpenAI 公布生物安全漏洞奖励计划反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
       "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
       "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
       "section": "brief"
@@ -267,32 +293,6 @@ const newsData = {
       "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
       "summary": "NVIDIA 博客发布了与“NVIDIA 发布 GPU 与 AI 基础设施新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
       "detail": "深层解读：NVIDIA 发布 GPU 与 AI 基础设施新动态反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
-      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
-      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
-      "section": "brief"
-    },
-    {
-      "id": "405fe38a0932",
-      "title": "Meta 加强平台未成年人安全治理",
-      "source": "Meta 官方 Newsroom",
-      "category": "科技信息热点",
-      "publishedAt": "2026-07-07T14:58:49.000Z",
-      "url": "https://about.fb.com/news/2026/07/our-work-to-fight-child-exploitation-on-our-apps/",
-      "summary": "Meta Newsroom发布了与“Meta 加强平台未成年人安全治理”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
-      "detail": "深层解读：Meta 加强平台未成年人安全治理反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
-      "whyItMatters": "治理和安全边界会决定 AI 能否进入更高价值但更敏感的行业场景。",
-      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
-      "section": "brief"
-    },
-    {
-      "id": "199c14bf7c06",
-      "title": "AI 研究与模型能力出现新进展",
-      "source": "NVIDIA 官方博客",
-      "category": "AI",
-      "publishedAt": "2026-07-07T06:00:26.000Z",
-      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-      "summary": "NVIDIA 博客发布了与“AI 研究与模型能力出现新进展”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
-      "detail": "深层解读：AI 研究与模型能力出现新进展反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
       "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
       "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
       "section": "brief"
