@@ -1,9 +1,9 @@
 const newsData = {
-  "briefDate": "2026-08-21",
-  "generatedAt": "2026-08-21T08:00:00+08:00",
-  "windowStart": "2026-08-14T08:00:00+08:00",
-  "windowEnd": "2026-08-21T08:00:00+08:00",
-  "dayStart": "2026-08-21T00:00:00+08:00",
+  "briefDate": "2026-08-22",
+  "generatedAt": "2026-08-22T08:00:00+08:00",
+  "windowStart": "2026-08-15T08:00:00+08:00",
+  "windowEnd": "2026-08-22T08:00:00+08:00",
+  "dayStart": "2026-08-22T00:00:00+08:00",
   "windowHours": 168,
   "selectionMode": "fallback-7d",
   "sources": [
@@ -280,19 +280,6 @@ const newsData = {
       "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
       "summary": "OpenAI 官方发布了与“OpenAI 官方发布发布AI新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
       "detail": "深层解读：OpenAI 官方发布发布AI新动态反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
-      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
-      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
-      "section": "brief"
-    },
-    {
-      "id": "934fa4ccd9eb",
-      "title": "NVIDIA 发布 GPU 与 AI 基础设施新动态",
-      "source": "NVIDIA 官方博客",
-      "category": "AI",
-      "publishedAt": "2026-08-14T17:13:05.000Z",
-      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "summary": "NVIDIA 博客发布了与“NVIDIA 发布 GPU 与 AI 基础设施新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
-      "detail": "深层解读：NVIDIA 发布 GPU 与 AI 基础设施新动态反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
       "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
       "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
       "section": "brief"
