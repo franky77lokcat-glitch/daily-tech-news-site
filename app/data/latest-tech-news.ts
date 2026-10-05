@@ -1,9 +1,9 @@
 const newsData = {
-  "briefDate": "2026-10-04",
-  "generatedAt": "2026-10-04T08:00:00+08:00",
-  "windowStart": "2026-09-27T08:00:00+08:00",
-  "windowEnd": "2026-10-04T08:00:00+08:00",
-  "dayStart": "2026-10-04T00:00:00+08:00",
+  "briefDate": "2026-10-05",
+  "generatedAt": "2026-10-05T08:00:00+08:00",
+  "windowStart": "2026-09-28T08:00:00+08:00",
+  "windowEnd": "2026-10-05T08:00:00+08:00",
+  "dayStart": "2026-10-05T00:00:00+08:00",
   "windowHours": 168,
   "selectionMode": "fallback-7d",
   "sources": [
