@@ -1,190 +1,193 @@
-import archive0 from "./archive/2026-10-08.json";
-import archive1 from "./archive/2026-10-07.json";
-import archive2 from "./archive/2026-10-06.json";
-import archive3 from "./archive/2026-10-05.json";
-import archive4 from "./archive/2026-10-04.json";
-import archive5 from "./archive/2026-10-03.json";
-import archive6 from "./archive/2026-10-02.json";
-import archive7 from "./archive/2026-10-01.json";
-import archive8 from "./archive/2026-09-30.json";
-import archive9 from "./archive/2026-09-29.json";
-import archive10 from "./archive/2026-09-28.json";
-import archive11 from "./archive/2026-09-27.json";
-import archive12 from "./archive/2026-09-26.json";
-import archive13 from "./archive/2026-09-25.json";
-import archive14 from "./archive/2026-09-24.json";
-import archive15 from "./archive/2026-09-23.json";
-import archive16 from "./archive/2026-09-22.json";
-import archive17 from "./archive/2026-09-21.json";
-import archive18 from "./archive/2026-09-20.json";
-import archive19 from "./archive/2026-09-19.json";
-import archive20 from "./archive/2026-09-18.json";
-import archive21 from "./archive/2026-09-17.json";
-import archive22 from "./archive/2026-09-16.json";
-import archive23 from "./archive/2026-09-15.json";
-import archive24 from "./archive/2026-09-14.json";
-import archive25 from "./archive/2026-09-13.json";
-import archive26 from "./archive/2026-09-12.json";
-import archive27 from "./archive/2026-09-11.json";
-import archive28 from "./archive/2026-09-10.json";
-import archive29 from "./archive/2026-09-09.json";
-import archive30 from "./archive/2026-09-08.json";
-import archive31 from "./archive/2026-09-07.json";
-import archive32 from "./archive/2026-09-06.json";
-import archive33 from "./archive/2026-09-05.json";
-import archive34 from "./archive/2026-09-04.json";
-import archive35 from "./archive/2026-09-03.json";
-import archive36 from "./archive/2026-09-02.json";
-import archive37 from "./archive/2026-09-01.json";
-import archive38 from "./archive/2026-08-31.json";
-import archive39 from "./archive/2026-08-30.json";
-import archive40 from "./archive/2026-08-29.json";
-import archive41 from "./archive/2026-08-28.json";
-import archive42 from "./archive/2026-08-27.json";
-import archive43 from "./archive/2026-08-26.json";
-import archive44 from "./archive/2026-08-25.json";
-import archive45 from "./archive/2026-08-24.json";
-import archive46 from "./archive/2026-08-23.json";
-import archive47 from "./archive/2026-08-22.json";
-import archive48 from "./archive/2026-08-21.json";
-import archive49 from "./archive/2026-08-20.json";
-import archive50 from "./archive/2026-08-19.json";
-import archive51 from "./archive/2026-08-18.json";
-import archive52 from "./archive/2026-08-17.json";
-import archive53 from "./archive/2026-08-16.json";
-import archive54 from "./archive/2026-08-15.json";
-import archive55 from "./archive/2026-08-14.json";
-import archive56 from "./archive/2026-08-13.json";
-import archive57 from "./archive/2026-08-12.json";
-import archive58 from "./archive/2026-08-11.json";
-import archive59 from "./archive/2026-08-10.json";
-import archive60 from "./archive/2026-08-09.json";
-import archive61 from "./archive/2026-08-08.json";
-import archive62 from "./archive/2026-08-07.json";
-import archive63 from "./archive/2026-08-06.json";
-import archive64 from "./archive/2026-08-05.json";
-import archive65 from "./archive/2026-08-04.json";
-import archive66 from "./archive/2026-08-03.json";
-import archive67 from "./archive/2026-08-02.json";
-import archive68 from "./archive/2026-08-01.json";
-import archive69 from "./archive/2026-07-31.json";
-import archive70 from "./archive/2026-07-30.json";
-import archive71 from "./archive/2026-07-29.json";
-import archive72 from "./archive/2026-07-28.json";
-import archive73 from "./archive/2026-07-27.json";
-import archive74 from "./archive/2026-07-26.json";
-import archive75 from "./archive/2026-07-25.json";
-import archive76 from "./archive/2026-07-24.json";
-import archive77 from "./archive/2026-07-23.json";
-import archive78 from "./archive/2026-07-22.json";
-import archive79 from "./archive/2026-07-21.json";
-import archive80 from "./archive/2026-07-20.json";
-import archive81 from "./archive/2026-07-19.json";
-import archive82 from "./archive/2026-07-18.json";
-import archive83 from "./archive/2026-07-17.json";
-import archive84 from "./archive/2026-07-16.json";
-import archive85 from "./archive/2026-07-15.json";
-import archive86 from "./archive/2026-07-14.json";
-import archive87 from "./archive/2026-07-13.json";
-import archive88 from "./archive/2026-07-12.json";
-import archive89 from "./archive/2026-07-11.json";
-import archive90 from "./archive/2026-07-10.json";
+import archive0 from "./archive/2026-10-09.json";
+import archive1 from "./archive/2026-10-08.json";
+import archive2 from "./archive/2026-10-07.json";
+import archive3 from "./archive/2026-10-06.json";
+import archive4 from "./archive/2026-10-05.json";
+import archive5 from "./archive/2026-10-04.json";
+import archive6 from "./archive/2026-10-03.json";
+import archive7 from "./archive/2026-10-02.json";
+import archive8 from "./archive/2026-10-01.json";
+import archive9 from "./archive/2026-09-30.json";
+import archive10 from "./archive/2026-09-29.json";
+import archive11 from "./archive/2026-09-28.json";
+import archive12 from "./archive/2026-09-27.json";
+import archive13 from "./archive/2026-09-26.json";
+import archive14 from "./archive/2026-09-25.json";
+import archive15 from "./archive/2026-09-24.json";
+import archive16 from "./archive/2026-09-23.json";
+import archive17 from "./archive/2026-09-22.json";
+import archive18 from "./archive/2026-09-21.json";
+import archive19 from "./archive/2026-09-20.json";
+import archive20 from "./archive/2026-09-19.json";
+import archive21 from "./archive/2026-09-18.json";
+import archive22 from "./archive/2026-09-17.json";
+import archive23 from "./archive/2026-09-16.json";
+import archive24 from "./archive/2026-09-15.json";
+import archive25 from "./archive/2026-09-14.json";
+import archive26 from "./archive/2026-09-13.json";
+import archive27 from "./archive/2026-09-12.json";
+import archive28 from "./archive/2026-09-11.json";
+import archive29 from "./archive/2026-09-10.json";
+import archive30 from "./archive/2026-09-09.json";
+import archive31 from "./archive/2026-09-08.json";
+import archive32 from "./archive/2026-09-07.json";
+import archive33 from "./archive/2026-09-06.json";
+import archive34 from "./archive/2026-09-05.json";
+import archive35 from "./archive/2026-09-04.json";
+import archive36 from "./archive/2026-09-03.json";
+import archive37 from "./archive/2026-09-02.json";
+import archive38 from "./archive/2026-09-01.json";
+import archive39 from "./archive/2026-08-31.json";
+import archive40 from "./archive/2026-08-30.json";
+import archive41 from "./archive/2026-08-29.json";
+import archive42 from "./archive/2026-08-28.json";
+import archive43 from "./archive/2026-08-27.json";
+import archive44 from "./archive/2026-08-26.json";
+import archive45 from "./archive/2026-08-25.json";
+import archive46 from "./archive/2026-08-24.json";
+import archive47 from "./archive/2026-08-23.json";
+import archive48 from "./archive/2026-08-22.json";
+import archive49 from "./archive/2026-08-21.json";
+import archive50 from "./archive/2026-08-20.json";
+import archive51 from "./archive/2026-08-19.json";
+import archive52 from "./archive/2026-08-18.json";
+import archive53 from "./archive/2026-08-17.json";
+import archive54 from "./archive/2026-08-16.json";
+import archive55 from "./archive/2026-08-15.json";
+import archive56 from "./archive/2026-08-14.json";
+import archive57 from "./archive/2026-08-13.json";
+import archive58 from "./archive/2026-08-12.json";
+import archive59 from "./archive/2026-08-11.json";
+import archive60 from "./archive/2026-08-10.json";
+import archive61 from "./archive/2026-08-09.json";
+import archive62 from "./archive/2026-08-08.json";
+import archive63 from "./archive/2026-08-07.json";
+import archive64 from "./archive/2026-08-06.json";
+import archive65 from "./archive/2026-08-05.json";
+import archive66 from "./archive/2026-08-04.json";
+import archive67 from "./archive/2026-08-03.json";
+import archive68 from "./archive/2026-08-02.json";
+import archive69 from "./archive/2026-08-01.json";
+import archive70 from "./archive/2026-07-31.json";
+import archive71 from "./archive/2026-07-30.json";
+import archive72 from "./archive/2026-07-29.json";
+import archive73 from "./archive/2026-07-28.json";
+import archive74 from "./archive/2026-07-27.json";
+import archive75 from "./archive/2026-07-26.json";
+import archive76 from "./archive/2026-07-25.json";
+import archive77 from "./archive/2026-07-24.json";
+import archive78 from "./archive/2026-07-23.json";
+import archive79 from "./archive/2026-07-22.json";
+import archive80 from "./archive/2026-07-21.json";
+import archive81 from "./archive/2026-07-20.json";
+import archive82 from "./archive/2026-07-19.json";
+import archive83 from "./archive/2026-07-18.json";
+import archive84 from "./archive/2026-07-17.json";
+import archive85 from "./archive/2026-07-16.json";
+import archive86 from "./archive/2026-07-15.json";
+import archive87 from "./archive/2026-07-14.json";
+import archive88 from "./archive/2026-07-13.json";
+import archive89 from "./archive/2026-07-12.json";
+import archive90 from "./archive/2026-07-11.json";
+import archive91 from "./archive/2026-07-10.json";
 
 export const archives = {
-  "2026-10-08": archive0,
-  "2026-10-07": archive1,
-  "2026-10-06": archive2,
-  "2026-10-05": archive3,
-  "2026-10-04": archive4,
-  "2026-10-03": archive5,
-  "2026-10-02": archive6,
-  "2026-10-01": archive7,
-  "2026-09-30": archive8,
-  "2026-09-29": archive9,
-  "2026-09-28": archive10,
-  "2026-09-27": archive11,
-  "2026-09-26": archive12,
-  "2026-09-25": archive13,
-  "2026-09-24": archive14,
-  "2026-09-23": archive15,
-  "2026-09-22": archive16,
-  "2026-09-21": archive17,
-  "2026-09-20": archive18,
-  "2026-09-19": archive19,
-  "2026-09-18": archive20,
-  "2026-09-17": archive21,
-  "2026-09-16": archive22,
-  "2026-09-15": archive23,
-  "2026-09-14": archive24,
-  "2026-09-13": archive25,
-  "2026-09-12": archive26,
-  "2026-09-11": archive27,
-  "2026-09-10": archive28,
-  "2026-09-09": archive29,
-  "2026-09-08": archive30,
-  "2026-09-07": archive31,
-  "2026-09-06": archive32,
-  "2026-09-05": archive33,
-  "2026-09-04": archive34,
-  "2026-09-03": archive35,
-  "2026-09-02": archive36,
-  "2026-09-01": archive37,
-  "2026-08-31": archive38,
-  "2026-08-30": archive39,
-  "2026-08-29": archive40,
-  "2026-08-28": archive41,
-  "2026-08-27": archive42,
-  "2026-08-26": archive43,
-  "2026-08-25": archive44,
-  "2026-08-24": archive45,
-  "2026-08-23": archive46,
-  "2026-08-22": archive47,
-  "2026-08-21": archive48,
-  "2026-08-20": archive49,
-  "2026-08-19": archive50,
-  "2026-08-18": archive51,
-  "2026-08-17": archive52,
-  "2026-08-16": archive53,
-  "2026-08-15": archive54,
-  "2026-08-14": archive55,
-  "2026-08-13": archive56,
-  "2026-08-12": archive57,
-  "2026-08-11": archive58,
-  "2026-08-10": archive59,
-  "2026-08-09": archive60,
-  "2026-08-08": archive61,
-  "2026-08-07": archive62,
-  "2026-08-06": archive63,
-  "2026-08-05": archive64,
-  "2026-08-04": archive65,
-  "2026-08-03": archive66,
-  "2026-08-02": archive67,
-  "2026-08-01": archive68,
-  "2026-07-31": archive69,
-  "2026-07-30": archive70,
-  "2026-07-29": archive71,
-  "2026-07-28": archive72,
-  "2026-07-27": archive73,
-  "2026-07-26": archive74,
-  "2026-07-25": archive75,
-  "2026-07-24": archive76,
-  "2026-07-23": archive77,
-  "2026-07-22": archive78,
-  "2026-07-21": archive79,
-  "2026-07-20": archive80,
-  "2026-07-19": archive81,
-  "2026-07-18": archive82,
-  "2026-07-17": archive83,
-  "2026-07-16": archive84,
-  "2026-07-15": archive85,
-  "2026-07-14": archive86,
-  "2026-07-13": archive87,
-  "2026-07-12": archive88,
-  "2026-07-11": archive89,
-  "2026-07-10": archive90
+  "2026-10-09": archive0,
+  "2026-10-08": archive1,
+  "2026-10-07": archive2,
+  "2026-10-06": archive3,
+  "2026-10-05": archive4,
+  "2026-10-04": archive5,
+  "2026-10-03": archive6,
+  "2026-10-02": archive7,
+  "2026-10-01": archive8,
+  "2026-09-30": archive9,
+  "2026-09-29": archive10,
+  "2026-09-28": archive11,
+  "2026-09-27": archive12,
+  "2026-09-26": archive13,
+  "2026-09-25": archive14,
+  "2026-09-24": archive15,
+  "2026-09-23": archive16,
+  "2026-09-22": archive17,
+  "2026-09-21": archive18,
+  "2026-09-20": archive19,
+  "2026-09-19": archive20,
+  "2026-09-18": archive21,
+  "2026-09-17": archive22,
+  "2026-09-16": archive23,
+  "2026-09-15": archive24,
+  "2026-09-14": archive25,
+  "2026-09-13": archive26,
+  "2026-09-12": archive27,
+  "2026-09-11": archive28,
+  "2026-09-10": archive29,
+  "2026-09-09": archive30,
+  "2026-09-08": archive31,
+  "2026-09-07": archive32,
+  "2026-09-06": archive33,
+  "2026-09-05": archive34,
+  "2026-09-04": archive35,
+  "2026-09-03": archive36,
+  "2026-09-02": archive37,
+  "2026-09-01": archive38,
+  "2026-08-31": archive39,
+  "2026-08-30": archive40,
+  "2026-08-29": archive41,
+  "2026-08-28": archive42,
+  "2026-08-27": archive43,
+  "2026-08-26": archive44,
+  "2026-08-25": archive45,
+  "2026-08-24": archive46,
+  "2026-08-23": archive47,
+  "2026-08-22": archive48,
+  "2026-08-21": archive49,
+  "2026-08-20": archive50,
+  "2026-08-19": archive51,
+  "2026-08-18": archive52,
+  "2026-08-17": archive53,
+  "2026-08-16": archive54,
+  "2026-08-15": archive55,
+  "2026-08-14": archive56,
+  "2026-08-13": archive57,
+  "2026-08-12": archive58,
+  "2026-08-11": archive59,
+  "2026-08-10": archive60,
+  "2026-08-09": archive61,
+  "2026-08-08": archive62,
+  "2026-08-07": archive63,
+  "2026-08-06": archive64,
+  "2026-08-05": archive65,
+  "2026-08-04": archive66,
+  "2026-08-03": archive67,
+  "2026-08-02": archive68,
+  "2026-08-01": archive69,
+  "2026-07-31": archive70,
+  "2026-07-30": archive71,
+  "2026-07-29": archive72,
+  "2026-07-28": archive73,
+  "2026-07-27": archive74,
+  "2026-07-26": archive75,
+  "2026-07-25": archive76,
+  "2026-07-24": archive77,
+  "2026-07-23": archive78,
+  "2026-07-22": archive79,
+  "2026-07-21": archive80,
+  "2026-07-20": archive81,
+  "2026-07-19": archive82,
+  "2026-07-18": archive83,
+  "2026-07-17": archive84,
+  "2026-07-16": archive85,
+  "2026-07-15": archive86,
+  "2026-07-14": archive87,
+  "2026-07-13": archive88,
+  "2026-07-12": archive89,
+  "2026-07-11": archive90,
+  "2026-07-10": archive91
 } as const;
 
 export const archiveDates = [
+  "2026-10-09",
   "2026-10-08",
   "2026-10-07",
   "2026-10-06",
