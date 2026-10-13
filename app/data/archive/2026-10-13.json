@@ -1,0 +1,54 @@
+{
+  "briefDate": "2026-10-13",
+  "generatedAt": "2026-10-13T08:00:00+08:00",
+  "windowStart": "2026-10-06T08:00:00+08:00",
+  "windowEnd": "2026-10-13T08:00:00+08:00",
+  "dayStart": "2026-10-13T00:00:00+08:00",
+  "windowHours": 168,
+  "selectionMode": "brief-date",
+  "sources": [
+    {
+      "name": "OpenAI 官方发布",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google Cloud 官方博客",
+      "url": "https://cloud.google.com"
+    },
+    {
+      "name": "Meta 官方 Newsroom",
+      "url": "https://about.fb.com"
+    },
+    {
+      "name": "Microsoft 官方博客",
+      "url": "https://blogs.microsoft.com"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com"
+    },
+    {
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com"
+    },
+    {
+      "name": "Anthropic 官方发布",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "9277128e4063",
+      "title": "Meta 推出 Muse 图像生成体验",
+      "source": "Meta 官方 Newsroom",
+      "category": "今日新奇",
+      "publishedAt": "2026-10-12T17:08:05.000Z",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "summary": "Meta Newsroom发布了与“Meta 推出 Muse 图像生成体验”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：Meta 推出 Muse 图像生成体验值得放进“今日新奇”，不是因为它只是一条产品消息，而是因为它代表大公司正在试探新的用户入口、内容形态或交互方式。影响路径：如果这种体验被用户接受，平台就能把 AI、内容、硬件或订阅服务更自然地嵌入日常使用。继续观察：它是否只是短期营销话题，还是能形成稳定使用频率、开发者生态和可持续商业模式。",
+      "whyItMatters": "新奇产品往往是下一代入口的早期信号，重点要看用户是否真的形成习惯，而不是只看发布时的热度。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
+      "section": "curious"
+    }
+  ]
+}
