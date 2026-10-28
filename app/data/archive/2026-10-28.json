@@ -1,0 +1,54 @@
+{
+  "briefDate": "2026-10-28",
+  "generatedAt": "2026-10-28T08:00:00+08:00",
+  "windowStart": "2026-10-21T08:00:00+08:00",
+  "windowEnd": "2026-10-28T08:00:00+08:00",
+  "dayStart": "2026-10-28T00:00:00+08:00",
+  "windowHours": 168,
+  "selectionMode": "brief-date",
+  "sources": [
+    {
+      "name": "OpenAI 官方发布",
+      "url": "https://openai.com"
+    },
+    {
+      "name": "Google Cloud 官方博客",
+      "url": "https://cloud.google.com"
+    },
+    {
+      "name": "Meta 官方 Newsroom",
+      "url": "https://about.fb.com"
+    },
+    {
+      "name": "Microsoft 官方博客",
+      "url": "https://blogs.microsoft.com"
+    },
+    {
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com"
+    },
+    {
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com"
+    },
+    {
+      "name": "Anthropic 官方发布",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "16b8f4946b60",
+      "title": "Microsoft 官方博客发布商业科技新动态",
+      "source": "Microsoft 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-10-27T16:01:38.000Z",
+      "url": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+      "summary": "Microsoft 博客发布了与“Microsoft 官方博客发布商业科技新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：Microsoft 官方博客发布商业科技新动态值得关注的地方不只是新闻本身，而是它透露出Microsoft 博客在商业科技上的资源投入方向。影响路径：如果这类投入进入真实用户场景，就可能改变产品节奏、成本结构或行业预期。继续观察：是否进入真实用户场景，是否改变成本或效率，以及是否迫使竞争对手跟进。",
+      "whyItMatters": "这条动态可能改变商业科技相关的产品节奏、采购判断或竞争格局，需要继续观察落地效果。",
+      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
+      "section": "brief"
+    }
+  ]
+}

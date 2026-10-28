@@ -1,9 +1,9 @@
 const newsData = {
-  "briefDate": "2026-10-27",
-  "generatedAt": "2026-10-27T08:00:00+08:00",
-  "windowStart": "2026-10-20T08:00:00+08:00",
-  "windowEnd": "2026-10-27T08:00:00+08:00",
-  "dayStart": "2026-10-27T00:00:00+08:00",
+  "briefDate": "2026-10-28",
+  "generatedAt": "2026-10-28T08:00:00+08:00",
+  "windowStart": "2026-10-21T08:00:00+08:00",
+  "windowEnd": "2026-10-28T08:00:00+08:00",
+  "dayStart": "2026-10-28T00:00:00+08:00",
   "windowHours": 168,
   "selectionMode": "brief-date",
   "sources": [
@@ -38,28 +38,15 @@ const newsData = {
   ],
   "items": [
     {
-      "id": "6cc4012dcb60",
-      "title": "开发者工具出现新进展",
-      "source": "OpenAI 官方发布",
-      "category": "开发者工具",
-      "publishedAt": "2026-10-26T22:00:00.000Z",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "summary": "OpenAI 官方发布了与“开发者工具出现新进展”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
-      "detail": "深层解读：开发者工具出现新进展的核心不是单点功能更新，而是把 AI 从“回答问题”推进到“接管一段工作流”。影响路径：如果它能稳定处理权限、上下文、文件和多人协作，企业采购会从买一个聊天入口，转向重新设计销售、客服、研发和办公流程。继续观察：可靠性、审计能力、失败后的人工接管机制，以及它能否在真实业务里连续跑完多步骤任务。",
-      "whyItMatters": "这条动态可能改变开发者工具相关的产品节奏、采购判断或竞争格局，需要继续观察落地效果。",
-      "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
-      "section": "brief"
-    },
-    {
-      "id": "0733bcc3e873",
-      "title": "AI 产品与模型发布新动态",
-      "source": "Apple Newsroom",
-      "category": "AI",
-      "publishedAt": "2026-10-26T18:37:30.189Z",
-      "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
-      "summary": "原文未提供摘要，请打开来源查看完整内容。",
-      "detail": "深层解读：AI 产品与模型发布新动态反映的是模型竞争正在从单纯参数和榜单，转向“单位成本能完成多少真实任务”。影响路径：云厂商、企业 AI 预算和开发者选型都会被牵动；同样一项任务，企业会更关心延迟、稳定性、可治理性和总成本，而不只是模型名字。继续观察：它是否能进入客服、办公、研发、数据分析等高频生产场景，而不是只停留在发布会和基准测试。",
-      "whyItMatters": "AI 竞争正在从演示能力进入工作流落地阶段，谁能把模型稳定嵌入真实业务，谁就更可能获得持续预算。",
+      "id": "16b8f4946b60",
+      "title": "Microsoft 官方博客发布商业科技新动态",
+      "source": "Microsoft 官方博客",
+      "category": "商业科技",
+      "publishedAt": "2026-10-27T16:01:38.000Z",
+      "url": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+      "summary": "Microsoft 博客发布了与“Microsoft 官方博客发布商业科技新动态”相关的一手动态。网站已保留原始链接，建议打开来源查看完整公告细节。",
+      "detail": "深层解读：Microsoft 官方博客发布商业科技新动态值得关注的地方不只是新闻本身，而是它透露出Microsoft 博客在商业科技上的资源投入方向。影响路径：如果这类投入进入真实用户场景，就可能改变产品节奏、成本结构或行业预期。继续观察：是否进入真实用户场景，是否改变成本或效率，以及是否迫使竞争对手跟进。",
+      "whyItMatters": "这条动态可能改变商业科技相关的产品节奏、采购判断或竞争格局，需要继续观察落地效果。",
       "verification": "官方 RSS 自动抓取；已保留一手来源链接，当前为机器整理，未进行人工复核。",
       "section": "brief"
     }
